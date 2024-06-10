@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="sketch_2.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.sound.min.js"></script>
+
+    <meta charset="UTF-8">
+    <title>Bubble sort</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<style>
+   
+    body {
+   background-color: black; 
+   font-family: Arial, Helvetica, sans-serif;
+   color: white; 
+   position: relative; /* Necessario per posizionare i bottoni relativamente al corpo della pagina */
+   
+}
+
+/* Stili per il bottone */
+.button-container {
+      top: 50px; /* Distanza dal top */
+      right: 50px; /* Distanza dal bordo destro */
+      position: fixed;
+  }
+
+  .button {
+      display: block;
+      background-color: transparent;
+      border: 2px solid white; /* Stroke bianco */
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 10px;
+      margin-bottom: 10px; /* Distanza tra i bottoni */
+      
+  }
+
+  .button-container-2 {
+      top: 860px; /* Distanza dal top */
+      right: 50px; /* Distanza dal bordo destro */
+      position: fixed;
+  }
+
+  .button:hover {
+      background-color: rgba(255, 255, 255); /* Cambia colore al passaggio del mouse */
+  }
+
+  h1{
+        font-size: 150px;
+        font-weight: bold;
+        top: -90px; 
+        left: 50px;
+        position: fixed;
+        }
+
+        .sottotitolo{
+            font-size: 30px;
+            font-weight: bold;
+            left: 50px;
+            top: 200px;
+            position: fixed;
+        }
+
+        .blocco_testo {
+            /* position: fixed; */
+            max-width: 600px; 
+            width: 80%; 
+            text-align: left;
+            left: 15px;
+            top: 270px;
+            position: fixed;
+        }
+
+.blocco_testo_2{
+    position: fixed;
+    max-width: 300px; /* Imposta la larghezza massima del blocco di testo */
+   width: 80%; /* Imposta la larghezza del blocco di testo al 80% della larghezza del contenitore */
+   text-align: left;
+   left: 870px;
+   top: 120px;
+}
+
+.blocco_testo_3{
+    position: fixed;
+    max-width: 300px; /* Imposta la larghezza massima del blocco di testo */
+   width: 80%; /* Imposta la larghezza del blocco di testo al 80% della larghezza del contenitore */
+   left: 870px;
+   top: 50px;
+   color: rgb(138, 138, 138);
+
+}
+
+
+
+#defaultCanvas0{
+  top: 650px;
+  left: 55px;
+  position: fixed; 
+
+}
+
+</style>
+
+
+<body>
+
+    <h1>esempio</h1>
+
+    <div class="button-container">
+      <a href="origini.html" class="button">origini</a>
+      <a href="cos'è.html" class="button">cos'è?</a>
+      <a href="esempio.html" class="button">esempio</a>
+      <a href="altri_sort.html" class="button"> altri sorting</a>
+      <a href="bibliografia.html" class="button"> bibliografia</a>
+    </div>
+    
+    <div class="button-container-2">
+    <a href="index.html" class="button"> home</a>
+    </div>
+    
+    <p class="sottotitolo">Bubble Stort Visualization </p>
+
+    <blockquote class="blocco_testo">
+        <p> Questo codice è un esempio di ordinamento di un array di valori visualizzato in un canvas usando l'algoritmo di ordinamento a bolle (bubble sort) con un'animazione.
+
+          setup(): Inizializza l'ambiente di disegno. Viene creato un canvas di dimensioni 650x600 pixel e il frame rate viene impostato a 10 frame al secondo. Viene inoltre creato un array chiamato "values" della lunghezza della larghezza del canvas (650). Ogni elemento dell'array viene inizializzato con un valore casuale compreso tra 0 e l'altezza del canvas.
+          draw(): Questa funzione viene chiamata ripetutamente dal programma per disegnare i frame dell'animazione. Il background viene impostato a nero. Vengono quindi visualizzati i valori dell'array "values" come linee verticali sul canvas. L'animazione consiste nell'ordinare gli elementi dell'array utilizzando l'algoritmo di ordinamento a bolle.
+          swap(arr, a, b): Questa funzione scambia gli elementi di un array alle posizioni "a" e "b".
+          Nel ciclo "draw()", viene iterato su tutti gli elementi dell'array "values" e ogni coppia di valori viene confrontata. Se il valore precedente è maggiore di quello successivo, i due valori vengono scambiati utilizzando la funzione "swap()". Questo processo viene ripetuto finché l'array non è completamente ordinato.
+          
+          Quando il ciclo di ordinamento è completato, viene stampato "finished" nella console e l'animazione si ferma usando la funzione "noLoop()".
+          <br> 
+        </p>
+
+        <blockquote class="blocco_testo_3">
+          <p> Daniel Shifmann<br> 
+            http://youtube.com/thecodingtrain 
+          </p>
+
+    </blockquote>
+    <blockquote class="blocco_testo_2">
+        <p>
+            
+let values = [];<br> 
+let i = 0;<br> 
+let j = 0;<br> 
+<br> 
+function setup() { <br> 
+  createCanvas(600, 250);<br> 
+  frameRate(10); <br> 
+  values = new Array(width);<br> 
+  for (let i = 0; i < values.length; i++) {<br> 
+    values[i] = random(height);<br> 
+    //values[i] = noise(i/100.0)*height;<br> 
+  }<br> 
+}<br> 
+function draw() {<br> 
+  background(0);<br> 
+  <br> 
+  translate(0, 0);<br> 
+  <br> 
+  if (i < values.length) {<br> 
+    for (j = 0; j < values.length - i - 1; j++) {<br> 
+      let a = values[j];<br> 
+      let b = values[j + 1];<br> 
+      if (a > b) {<br> 
+        swap(values, j, j + 1);<br> 
+      }<br> 
+    }<br> 
+  } else {<br> 
+    console.log("finished");<br> 
+    noLoop();<br> 
+  }<br> 
+  i++;<br> 
+  for (let k = 0; k < values.length; k++) {<br> 
+    stroke(255);<br> 
+    line(k, height, k, height - values[k]);<br> 
+  }<br> 
+}<br> 
+function swap(arr, a, b) {<br> 
+  let temp = arr[a];<br> 
+  arr[a] = arr[b];<br> 
+  arr[b] = temp;<br> 
+}</p><br> 
+    </blockquote>
+
+</body>
+</html>

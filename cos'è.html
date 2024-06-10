@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Origini</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<style>
+    body {
+        background-color: black; 
+        font-family: Arial, Helvetica, sans-serif;
+        color: white; 
+        position: relative; 
+        
+    }
+
+    /* Stili per il bottone */
+    .button-container {
+           top: 50px; 
+           right: 50px; 
+           position: fixed;
+       }
+
+       .button {
+           display: block;
+           background-color: transparent;
+           border: 2px solid white; 
+           color: white;
+           padding: 15px 32px;
+           text-align: center;
+           text-decoration: none;
+           font-size: 16px;
+           cursor: pointer;
+           border-radius: 10px;
+           margin-bottom: 10px; /* Distanza tra i bottoni */
+           
+       }
+
+       .button-container-2 {
+      top: 860px; /* Distanza dal top */
+      right: 50px; /* Distanza dal bordo destro */
+      position: fixed;
+  }
+
+       .button:hover {
+           background-color: rgba(255, 255, 255); 
+       }
+
+       h1{
+        font-size: 150px;
+        font-weight: bold;
+        top: -90px; 
+        left: 50px;
+        position: fixed;
+        }
+
+        .sottotitolo{
+            font-size: 30px;
+            font-weight: bold;
+            left: 50px;
+            top: 200px;
+            position: fixed;
+        }
+
+        .blocco_testo {
+            /* position: fixed; */
+            max-width: 600px; 
+            width: 80%; 
+            text-align: left;
+            left: 15px;
+            top: 270px;
+            position: fixed;
+        }
+
+
+
+    .number-container-1 {
+        position: absolute;
+        top: 270px;
+        left: 900px;
+        display: flex;
+    }
+    .number-container-2 {
+        position: absolute;
+        top: 350px;
+        left: 900px;
+        display: flex;
+    }
+    .number-container-3 {
+        position: absolute;
+        top: 430px;
+        left: 900px;
+        display: flex;
+    }
+    .number-container-4 {
+        position: absolute;
+        top: 510px;
+        left: 900px;
+        display: flex;
+    }
+    .number-container-5 {
+        position: absolute;
+        top: 590px;
+        left: 900px;
+        display: flex;
+    }
+    .number-container-6 {
+        position: absolute;
+        top: 670px;
+        left: 900px;
+        display: flex;
+    }
+    .number-container-7 {
+        position: absolute;
+        top: 750px;
+        left: 900px;
+        display: flex;
+    }
+    .number-container-8 {
+        position: absolute;
+        top: 830px;
+        left: 900px;
+        display: flex;
+    }
+    .number-container-9 {
+        position: absolute;
+        top: 910px;
+        left: 900px;
+        display: flex;
+    }
+    .number-container-10 {
+        position: absolute;
+        top: 990px;
+        left: 900px;
+        display: flex;
+    }
+    .number-container-11 {
+        position: absolute;
+        top: 1070px;
+        left: 900px;
+        display: flex;
+    }
+    .number-container-12 {
+        position: absolute;
+        top: 1150px;
+        left: 900px;
+        display: flex;
+    }
+    .number-container-13 {
+        position: absolute;
+        top: 1230px;
+        left: 900px;
+        display: flex;
+    }
+    .number-container-14 {
+        position: absolute;
+        top: 1310px;
+        left: 900px;
+        display: flex;
+    }
+    .number-container-15 {
+        position: absolute;
+        top: 1390px;
+        left: 900px;
+        display: flex;
+    }
+
+    .number-box {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px; /* Aggiunta di bordi arrotondati */
+    }
+
+    .number-box-change {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(138, 138, 138);
+    color: white;
+    border: 2px solid white;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px; /* Aggiunta di bordi arrotondati */
+    }
+
+    .number-box-magg {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 2px solid white;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px; /* Aggiunta di bordi arrotondati */
+    }
+
+    .number-box-magg-1 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(183, 233, 193);
+    color: rgb(0, 0, 0);
+    border: 2px solid white;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px; /* Aggiunta di bordi arrotondati */
+    }
+
+    .number-box-magg-2 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(127, 227, 147);
+    color: rgb(0, 0, 0);
+    border: 2px solid white;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px; /* Aggiunta di bordi arrotondati */
+    }
+
+    .number-box-magg-3 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(62, 215, 92);
+    color: rgb(0, 0, 0);
+    border: 2px solid white;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px; /* Aggiunta di bordi arrotondati */
+    }
+
+    .number-box-definitiv {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(0, 211, 42);
+    color: white;
+    border: 2px solid white;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px; /* Aggiunta di bordi arrotondati */
+    }
+
+</style>
+
+
+<body>
+    <h1>cos'è?</h1>
+
+
+    <div class="button-container">
+        <a href="origini.html" class="button">origini</a>
+        <a href="cos'è.html" class="button">cos'è?</a>
+        <a href="esempio.html" class="button">esempio</a>
+        <a href="altri_sort.html" class="button"> altri sorting</a>
+        <a href="bibliografia.html" class="button"> bibliografia</a>
+    </div>
+
+    <div class="button-container-2">
+        <a href="index.html" class="button"> home</a>
+    </div>
+
+    <p class="sottotitolo">Un semplice algoritmo di ordinamento</p>
+
+    <blockquote class="blocco_testo">
+        <p> Il Bubble Sort è un semplice algoritmo di ordinamento che opera confrontando ripetutamente coppie di elementi adiacenti in una lista e scambiandoli se sono disposti in ordine errato. Questo processo continua fino a quando non sono più necessari scambi, indicando che la lista è stata ordinata correttamente.
+
+            L'idea alla base del Bubble Sort è incredibilmente intuitiva. Immagina di avere una lista di numeri disordinati e di volerli ordinare in ordine crescente. Il Bubble Sort inizia dal primo elemento della lista e confronta ogni coppia di elementi adiacenti. Se un elemento è maggiore dell'altro, li scambia di posizione. Questo processo viene ripetuto per ogni coppia di elementi lungo la lista finché non viene raggiunto il suo estremo. A questo punto, l'elemento più grande della lista è "salito" fino alla sua posizione finale.
+            
+            Questo "salire" degli elementi più grandi è simile a bolle d'aria che emergono dall'acqua, da cui deriva il nome "Bubble Sort". Ripetendo questo processo per ogni elemento della lista, l'algoritmo garantisce che gli elementi più grandi "galleggino" fino alla parte superiore della lista, proprio come le bolle d'aria in un bicchiere d'acqua.
+            
+            Tuttavia, è importante notare che il Bubble Sort non è efficiente come altri algoritmi di ordinamento più sofisticati, come il Merge Sort o il Quick Sort. La sua complessità computazionale è O(n^2), il che significa che il tempo di esecuzione aumenta rapidamente all'aumentare della dimensione della lista. Questo lo rende poco pratico per liste di grandi dimensioni.
+            
+            Nonostante la sua inefficienza, il Bubble Sort ha ancora un valore didattico significativo. La sua semplicità lo rende un ottimo strumento per introdurre concetti fondamentali di algoritmi di ordinamento e strutture dati. Inoltre, il suo funzionamento intuitivo fornisce una base solida per comprendere algoritmi più complessi.</p>
+    </blockquote>
+
+
+    <div>
+        <main></main>
+    <!-- Riga di 5 numeri -->
+    <div class="number-container-1">
+        <div class="number-box-magg">5</div>
+        <div class="number-box-change">2</div>
+        <div class="number-box">4</div>
+        <div class="number-box">3</div>
+        <div class="number-box">1</div>
+    </div>
+
+    <div class="number-container-2">
+        <div class="number-box">2</div>
+        <div class="number-box-magg-1">5</div>
+        <div class="number-box-change">4</div>
+        <div class="number-box">3</div>
+        <div class="number-box">1</div>
+    </div>
+
+    <div class="number-container-3">
+        <div class="number-box">2</div>
+        <div class="number-box">4</div>
+        <div class="number-box-magg-2">5</div>
+        <div class="number-box-change">3</div>
+        <div class="number-box">1</div>
+    </div>
+
+    <div class="number-container-4">
+        <div class="number-box">2</div>
+        <div class="number-box">4</div>
+        <div class="number-box">3</div>
+        <div class="number-box-magg-3">5</div>
+        <div class="number-box-change">1</div>
+    </div>
+
+    <div class="number-container-5">
+        <div class="number-box">2</div>
+        <div class="number-box">4</div>
+        <div class="number-box">3</div>
+        <div class="number-box">1</div>
+        <div class="number-box-definitiv">5</div>
+    </div>
+
+    <div class="number-container-6">
+        <div class="number-box-change">2</div>
+        <div class="number-box-magg">4</div>
+        <div class="number-box">3</div>
+        <div class="number-box">1</div>
+        <div class="number-box-definitiv">5</div>
+    </div>
+
+    <div class="number-container-7">
+        <div class="number-box">2</div>
+        <div class="number-box-magg-1">4</div>
+        <div class="number-box-change">3</div>
+        <div class="number-box">1</div>
+        <div class="number-box-definitiv">5</div>
+    </div>
+
+    <div class="number-container-8">
+        <div class="number-box">2</div>
+        <div class="number-box">3</div>
+        <div class="number-box-magg-3">4</div>
+        <div class="number-box-change">1</div>
+        <div class="number-box-definitiv">5</div>
+    </div>
+
+    <div class="number-container-9">
+        <div class="number-box">2</div>
+        <div class="number-box">3</div>
+        <div class="number-box">1</div>
+        <div class="number-box-definitiv">4</div>
+        <div class="number-box-definitiv">5</div>
+    </div>
+
+    <div class="number-container-10">
+        <div class="number-box-change">2</div>
+        <div class="number-box-magg">3</div>
+        <div class="number-box">1</div>
+        <div class="number-box-definitiv">4</div>
+        <div class="number-box-definitiv">5</div>
+    </div>
+
+    <div class="number-container-11">
+        <div class="number-box">2</div>
+        <div class="number-box-magg-2">3</div>
+        <div class="number-box-change">1</div>
+        <div class="number-box-definitiv">4</div>
+        <div class="number-box-definitiv">5</div>
+    </div>
+
+    <div class="number-container-12">
+        <div class="number-box">2</div>
+        <div class="number-box">1</div>
+        <div class="number-box-definitiv">3</div>
+        <div class="number-box-definitiv">4</div>
+        <div class="number-box-definitiv">5</div>
+    </div>
+
+    <div class="number-container-13">
+        <div class="number-box-magg">2</div>
+        <div class="number-box-change">1</div>
+        <div class="number-box-definitiv">3</div>
+        <div class="number-box-definitiv">4</div>
+        <div class="number-box-definitiv">5</div>
+    </div>
+
+    <div class="number-container-14">
+        <div class="number-box-definitiv">1</div>
+        <div class="number-box-definitiv">2</div>
+        <div class="number-box-definitiv">3</div>
+        <div class="number-box-definitiv">4</div>
+        <div class="number-box-definitiv">5</div>
+    </div>
+
+</div> 
+
+</body>
+</html>
