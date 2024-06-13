@@ -4,7 +4,7 @@ Docenti: A. Gysin, G. Profeta
 
 Elaborato 1: Bubble Sort 
 
-# MOODY
+# Bubble Sort 
 Autore: Margherita Lavagnini  
 (https://margheritalavagnini.github.io/moody/index.html)
 
