@@ -78,9 +78,5 @@ function swap(arr, a, b) {
 
 
 ## Target e contesto d’uso
-Il sito web è principalmente rivolto a un pubblico che desidera comprendere i principi di base dell'algoritmo di ordinamento. In particolare, si indirizza a diversi gruppi di utenti:
-Studenti di informatica, sia delle scuole superiori che universitari, che stanno esplorando algoritmi di base o corsi introduttivi di programmazione, trovano utile una spiegazione chiara del Bubble Sort per assimilare concetti fondamentali e imparare a implementare algoritmi semplici.
-Coloro che si avvicinano alla programmazione per la prima volta, come principianti o autodidatti, possono trarre vantaggio da una guida accessibile al Bubble Sort, che li aiuta a comprendere i meccanismi dell'ordinamento e a sviluppare le loro competenze di programmazione.
-Gli appassionati di tecnologia che non necessariamente hanno un background accademico in informatica ma sono interessati a esplorare concetti di base come gli algoritmi di ordinamento possono trovare stimolante esplorare il Bubble Sort come uno degli algoritmi più semplici e comprenderne il funzionamento attraverso una spiegazione dettagliata.
-Insegnanti e educatori di informatica, matematica o scienze della computazione possono utilizzare risorse online che spiegano il Bubble Sort per arricchire i materiali didattici e offrire ai propri studenti un'ulteriore comprensione degli algoritmi di ordinamento, sia a livello concettuale che pratico.
+
 Il sito web si rivolge a chiunque sia interessato a comprendere i fondamenti dell'informatica e degli algoritmi di ordinamento, fornendo spiegazioni accessibili e risorse utili per diversi livelli di conoscenza e esperienza.
