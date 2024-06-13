@@ -6,7 +6,7 @@ Elaborato 1: Bubble Sort
 
 # Bubble Sort 
 Autore: Margherita Lavagnini  
-[https://margheritalavagnini.github.io/bubblesort/]
+[MediaPipe demo-ES6] (https://margheritalavagnini.github.io/bubblesort/)
 
 ## Introduzione e tema
 Il sito è sviluppato per poter spiegare l'agoritmo del Bubble sort in maniera semplice e intuitiva. Il Bubble Sort è un semplice algoritmo di ordinamento che opera confrontando ripetutamente gli elementi adiacenti e scambiandoli se sono disposti nell'ordine sbagliato. Questo processo continua finché l'intero array non è ordinato. È uno degli algoritmi di ordinamento più semplici da capire e implementare, anche se non è efficiente per grandi insiemi di dati. Tuttavia, è utile per scopi didattici e può essere un punto di partenza per comprendere i concetti di base dell'ordinamento. La sua logica è simile a quella di ordinare carte da gioco tenendole in mano e spostando le carte più grandi verso l'alto mano a mano che si scorre attraverso il mazzo.
