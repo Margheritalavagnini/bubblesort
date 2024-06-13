@@ -20,12 +20,12 @@ L’interfaccia è caratterizzata da un tema scuro, che può essere particolarme
 Sul lato destro dell’interfaccia, ci sono diverse etichette che fungono da collegamento ai diversi capitoli che spiegano come funziona l'algoritmo.
 Sul lato destro è sempre presente il titolo dell'argomento trattato, con un sottotitolo e un testo di spegazione differente a seconda del tema trattato.
 L'interfaccia presenta un designe semplice e intuitivo che permette all'utente di orientarsi in maniera intuitiva all'interno del sito.
-[<img src="doc/Screenshot_01.png" width="200">]()
-[<img src="doc/Screenshot_02.png" width="200">]()
-[<img src="doc/Screenshot_03.png" width="200">]()
-[<img src="doc/Screenshot_04.png" width="200">]()
-[<img src="doc/Screenshot_05.png" width="200">]()
-[<img src="doc/Screenshot_06.png" width="200">]()
+[<img src="doc/Lavagnini-Margherita_MOODY-progetto_01.jpg" width="200">]()
+[<img src="doc/Lavagnini-Margherita_MOODY-progetto_02.jpg" width="200">]()
+[<img src="doc/Lavagnini-Margherita_MOODY-progetto_03.jpg" width="200">]()
+[<img src="doc/Lavagnini-Margherita_MOODY-progetto_04.jpg" width="200">]()
+[<img src="doc/Lavagnini-Margherita_MOODY-progetto_05.jpg" width="200">]()
+[<img src="doc/Lavagnini-Margherita_MOODY-progetto_06.jpg" width="200">]()
 
 
 ## Tecnologia usata
