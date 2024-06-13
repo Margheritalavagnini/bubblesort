@@ -21,7 +21,12 @@ Sul lato destro dell’interfaccia, ci sono diverse etichette che fungono da col
 Sul lato destro è sempre presente il titolo dell'argomento trattato, con un sottotitolo e un testo di spegazione differente a seconda del tema trattato.
 
 L'interfaccia presenta un designe semplice e intuitivo che permette all'utente di orientarsi in maniera intuitiva all'interno del sito.
-[<img src="doc/cards.gif" width="500" alt="Magic trick">]()
+[<img src="doc/Screenshot_01.png" width="200">]()
+[<img src="doc/Screenshot_02.png" width="200">]()
+[<img src="doc/Screenshot_03.png" width="200">]()
+[<img src="doc/Screenshot_04.png" width="200">]()
+[<img src="doc/Screenshot_05.png" width="200">]()
+[<img src="doc/Screenshot_06.png" width="200">]()
 
 
 ## Tecnologia usata
