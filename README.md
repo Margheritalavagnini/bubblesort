@@ -6,7 +6,7 @@ Elaborato 1: Bubble Sort
 
 # MOODY
 Autore: Margherita Lavagnini  
-[MediaPipe demo-ES6](https://margheritalavagnini.github.io/moody/index.html)
+(https://margheritalavagnini.github.io/moody/index.html)
 
 
 ## Introduzione e tema
