@@ -6,7 +6,7 @@ Elaborato 1: Bubble Sort
 
 # Bubble Sort 
 Autore: Margherita Lavagnini  
-(https://margheritalavagnini.github.io/moody/index.html)
+[https://margheritalavagnini.github.io/bubblesort/]
 
 
 ## Introduzione e tema
